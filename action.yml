@@ -1,0 +1,8 @@
+name: 'Caption k8s'
+description: "Captain k8s"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - 'foo'
+
